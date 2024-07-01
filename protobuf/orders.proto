@@ -4,7 +4,7 @@ option go_package = "github.com/emaanmohamed/order-management-system/";
 
 service OrderService {
   rpc CreateOrder(CreateOrderRequest) returns (CreateOrderResponse);
-//    rpc GetOrder(GetOrderRequest) returns (GetOrderResponse);
+  rpc GetOrder(GetOrdersRequest) returns (GetOrderResponse);
 //    rpc UpdateOrder(UpdateOrderRequest) returns (UpdateOrderResponse);
 //    rpc DeleteOrder(DeleteOrderRequest) returns (DeleteOrderResponse);
 
